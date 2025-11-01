@@ -253,7 +253,6 @@ Output format must be short, clear and structured like this exact format:
 Crop: <crop name>
 District: <district name>
 Price: ₹<price per quintal>
-
 No extra explanation, no notes, no intro, no emoji.
 
 If price is not available, then say:
