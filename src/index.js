@@ -22,6 +22,8 @@ app.use(cookieParser());
 const corsOptions = {
   origin: "http://localhost:5173", // Your React frontend URL
   credentials: true, // Allow cookies
+  sameSite: "none",
+  secure: true,
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   optionsSuccessStatus: 200
